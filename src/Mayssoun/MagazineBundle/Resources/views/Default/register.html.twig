@@ -1,0 +1,10 @@
+{# app/Resources/views/registration/register.html.twig #}
+{% extends '::base.html.twig' %}
+{% block body %}
+    myform
+    {{ form_start(form) }}
+    {{ form_row(form.code) }}
+
+    <button type="submit">Register!</button>
+    {{ form_end(form) }}
+{% endblock %}

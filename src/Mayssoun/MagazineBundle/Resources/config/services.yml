@@ -1,0 +1,4 @@
+services:
+#    mayssoun_magazine.example:
+#        class: Mayssoun\MagazineBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]
